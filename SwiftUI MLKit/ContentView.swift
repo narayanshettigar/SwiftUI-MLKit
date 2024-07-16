@@ -177,7 +177,7 @@ class CameraViewController: UIViewController {
           return
         }
           //
-
+//
         // Pose detected. Currently, only single person detection is supported.
         poses.forEach { pose in
           let poseOverlayView = UIUtilities.createPoseOverlayView(
