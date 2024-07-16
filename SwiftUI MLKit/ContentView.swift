@@ -176,6 +176,7 @@ class CameraViewController: UIViewController {
           print("Pose detector returned no results.")
           return
         }
+          //
 
         // Pose detected. Currently, only single person detection is supported.
         poses.forEach { pose in
